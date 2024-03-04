@@ -1,0 +1,47 @@
+#include<stdio.h>
+int main (){
+    int n;
+    printf("Enter the number :");
+    scanf("%d",&n);
+    
+    // for(int i=1;i<=n;i++){
+    //     int a=1;
+    //     for(int j=1;j<=n-i;j++){
+    //         printf(" ");
+    //     }
+    //     for(int j= 1; j<=i; j++){
+    //         printf("%d",a);
+    //         a++;
+    //     }
+    //     for(int k=1; k<=i-1;k++){
+    //         printf("%d",a-2);
+    //         a--;
+
+    //     }
+    //     printf("\n");
+//}
+
+        // same with alphabet 
+        for(int i=1;i<=n;i++){
+        int a=1;
+        char ch= (char)a+64;
+        for(int j=1;j<=n-i;j++){
+            printf(" ");
+        }
+        for(int j= 1; j<=i; j++){
+            printf("%c",ch);
+            ch++;
+        }
+        for(int k=1; k<=i-1;k++){
+
+            printf("%c",ch-2);
+            ch--;
+
+        }
+        printf("\n");
+
+        }
+    
+    return 0;
+
+}
