@@ -41,8 +41,8 @@ console.log(result);
   - `npm run test-expenditure-analysis`
 */
 
-function calculateTotalSpentByCategory(transactions) {
-    return [];
-  }
+// function calculateTotalSpentByCategory(transactions) { 
+//     return [];
+//   }
   
-  module.exports = calculateTotalSpentByCategory;
+//   module.exports = calculateTotalSpentByCategory;
